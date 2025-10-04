@@ -40,7 +40,8 @@ def _column_selector(dataset: ParsedDataset, label: str, default: Optional[str])
 
 
 def main() -> None:
-    st.title("Water Surface Elevation QAQC")
+    st.title("SRWC")
+    st.subheader("Water Surface Elevation QAQC")
     st.write(
         "Upload HOBO exports or CSV/Excel files for both your in-water and in-air sensors. "
         "The app will merge them, compute barometrically compensated water surface elevations, "
